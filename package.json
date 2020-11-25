@@ -1,0 +1,28 @@
+{
+  "name": "nodejslab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongonpower/nodejslab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gongonpower/nodejslab/issues"
+  },
+  "homepage": "https://github.com/gongonpower/nodejslab#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
